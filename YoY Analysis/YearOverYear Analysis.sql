@@ -22,8 +22,12 @@ SELECT
 	--, (SUM(s.SalesAmount)*100)/ms.Sales AS PercentChange
 	,(SUM(s.SalesAmount) - ms.Sales) / SUM(s.SalesAmount) AS 'PercentGrowth'
 	,CASE WHEN SUM(s.SalesAmount) > ms.Sales THEN 'PROFIT' ELSE 'LOSS' END AS FinancialStatement
+	
 FROM DimDate d,FactInternetSales s,mnthlysales ms
-WHERE d.DateKey = s.OrderDateKey AND d.CalendarYear-1 = ms.YearNum AND d.MonthNumberOfYear = ms.MonthNum
+
+WHERE d.DateKey = s.OrderDateKey 
+	AND d.CalendarYear-1 = ms.YearNum 
+	AND d.MonthNumberOfYear = ms.MonthNum
 GROUP BY
 		d.CalendarYear
 	,	d.MonthNumberOfYear
