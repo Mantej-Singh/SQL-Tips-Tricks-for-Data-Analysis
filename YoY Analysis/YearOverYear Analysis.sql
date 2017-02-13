@@ -22,6 +22,7 @@ SELECT
 	--, (SUM(s.SalesAmount)*100)/ms.Sales AS PercentChange
 	,(SUM(s.SalesAmount) - ms.Sales) / SUM(s.SalesAmount) AS 'PercentGrowth'
 	,CASE WHEN SUM(s.SalesAmount) > ms.Sales THEN 'PROFIT' ELSE 'LOSS' END AS FinancialStatement
+	--I am finding the diff bet current sales amt and previous sales amount and then dividing them by cyrrent sales amount.
 	
 FROM DimDate d,FactInternetSales s,mnthlysales ms
 
