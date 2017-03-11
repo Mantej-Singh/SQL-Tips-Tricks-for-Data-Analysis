@@ -12,3 +12,7 @@
 ## Rank_output:- 
 
 [![screenshot_1.png](https://s19.postimg.org/bqphg6iwj/screenshot_1.png)](https://postimg.org/image/jjg585ovj/)
+
+- - - -
+# When to use SQL Joins:
+[![scdreenshot_1.png](https://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_V2.png)
