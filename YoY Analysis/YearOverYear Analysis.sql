@@ -26,8 +26,8 @@ SELECT
 	
 FROM DimDate d,FactInternetSales s,mnthlysales ms
 
-WHERE d.DateKey = s.OrderDateKey 
-	AND d.CalendarYear-1 = ms.YearNum 
+WHERE d.DateKey = s.OrderDateKey -- current year
+	AND d.CalendarYear-1 = ms.YearNum --previous year
 	AND d.MonthNumberOfYear = ms.MonthNum
 GROUP BY
 		d.CalendarYear
