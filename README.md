@@ -7,11 +7,11 @@
 # Outputs:
 ## YoY_output:- 
 
-[![screenshot_1.png](https://s19.postimg.org/d4h4bhi5v/screenshot_1.png)](https://postimg.org/image/dtzwnuipb/)
+[![screenshot-1.png](https://i.postimg.cc/28LcSys6/screenshot-1.png)](https://postimg.cc/1fPcWm5h)
 
 ## Rank_output:- 
 
-[![screenshot_1.png](https://s19.postimg.org/bqphg6iwj/screenshot_1.png)](https://postimg.org/image/jjg585ovj/)
+[![screenshot-1.png](https://i.postimg.cc/L6ZSFHvk/screenshot-1.png)](https://postimg.cc/6ywgdxkT)
 
 - - - -
 # When to use SQL Joins:
